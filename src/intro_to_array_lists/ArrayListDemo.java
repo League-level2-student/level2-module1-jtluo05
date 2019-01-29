@@ -11,7 +11,7 @@ public class ArrayListDemo {
 		names.add("Jan");
 		names.add("Sara");
 		names.add("Fred");
-		names.add("Marc");
+		names.add("Marco");
 		
 		System.out.println("Here's an ArrayList of Strings:\n");
 		//iterating through list with standard for-loop
