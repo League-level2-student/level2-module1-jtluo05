@@ -1,16 +1,26 @@
 package intro_to_array_lists;
 
+import java.util.ArrayList;
+
 public class IntroToArrayLists {
 	public static void main(String[] args) {
 		//1. Create an array list of Strings
 		//   Don't forget to import the ArrayList class
-		
+		ArrayList<String> favTeams= new ArrayList<String>();
 		//2. Add five Strings to your list
-		
+		favTeams.add("Steelers");
+		favTeams.add("Manchester City");
+		favTeams.add("New Orleans Saints");
+		favTeams.add("Tottenham Hotspurs");
+		favTeams.add("Not Liverpool");
 		//3. Print all the Strings using a standard for-loop
-		
+		for (int i = 0; i < favTeams.size(); i++) {
+			System.out.println(favTeams.get(i));
+		}
 		//4. Print all the Strings using a for-each loop
-		
+		for (String favTeams:favTeam) {
+			
+		}
 		//5. Print only the even numbered elements in the list.
 		
 		//6. Print all the Strings in reverse order.
