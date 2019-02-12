@@ -12,19 +12,35 @@ public class IntroToArrayLists {
 		favTeams.add("Manchester City");
 		favTeams.add("New Orleans Saints");
 		favTeams.add("Tottenham Hotspurs");
-		favTeams.add("Not Liverpool");
+		favTeams.add("Not Livpool");
 		//3. Print all the Strings using a standard for-loop
 		for (int i = 0; i < favTeams.size(); i++) {
 			System.out.println(favTeams.get(i));
 		}
 		//4. Print all the Strings using a for-each loop
-		for (String favTeams:favTeam) {
-			
+		for(String favTeam:favTeams) {
+			System.out.println(favTeam);
 		}
 		//5. Print only the even numbered elements in the list.
+		for (int i = 0; i < favTeams.size(); i++) {
+			if (i%2==0) {
+				System.out.println(favTeams.get(i));
+			}
+		}
+			
 		
 		//6. Print all the Strings in reverse order.
-		
+		for (int i = favTeams.size()-1; i >= 0; i--) {
+				System.out.println(favTeams.get(i));
+			
+		}
 		//7. Print only the Strings that have the letter 'e' in them.
+		for (int i = 0; i < favTeams.size(); i++) {
+		if(favTeams.get(i).contains("e")) {
+			System.out.println(favTeams.get(i));
+		}
+		}
 	}
-}
+	}
+
+
